@@ -1,10 +1,11 @@
 
 import  {AppContainer} from "./styles"
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {Navbar} from "./components"
 function App() {
   return (
    <AppContainer>
-     <h3>App</h3>
+     <Navbar/>
    </AppContainer>
   );
 }
