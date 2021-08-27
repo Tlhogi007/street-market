@@ -11,6 +11,7 @@ import {
 } from "./styles";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 
 const Navbar = () => {
   return (
@@ -31,8 +32,8 @@ const Navbar = () => {
           <ShoppingBasketIcon />
         </IconBox>
         <IconBox>
-          <IconTitle>CART</IconTitle>
-          <ShoppingBasketIcon />
+          <IconTitle>LOGIN</IconTitle>
+          <PermIdentityIcon />
         </IconBox>
       </Icons>
     </NavContainer>

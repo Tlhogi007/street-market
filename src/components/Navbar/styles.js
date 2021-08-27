@@ -7,7 +7,7 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 width:100%;
-height:8vh;
+height:8vh;z-index:9999;
 
 position:sticky;
 top:0;
